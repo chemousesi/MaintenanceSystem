@@ -1,3 +1,0 @@
-public enum States {
-    RECIEVED, REPAIRAING, REPAIRED, NOTREPARED, DELIVERED
-}

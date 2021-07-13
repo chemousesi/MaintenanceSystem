@@ -1,3 +1,3 @@
 public enum EquipementType {
-    PC, LAPTOP, PRINTER, SCREEN, BATTERY, OTHER
+    PC, LAPTOP, IMPRIMANTE, ECRAN, ONDULEUR, AUTRE
 }
