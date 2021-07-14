@@ -1,10 +1,12 @@
+package Main;
+
 import java.util.ArrayList;
 import java.util.Date;
 
 public class Client {
 
-    private String name;
     private String id;
+    private String name;
     private Date birthDate;
     private String phoneNumeber;
     private String email;
@@ -42,6 +44,11 @@ public class Client {
 
     public String getEmail() {
         return email;
+    }
+
+    @Override
+    public String toString() {
+        return "ID: " + this.id + "\tnom : " + this.name + "\ttel: " + this.phoneNumeber + "\t\tmail: " + this.email;
     }
 
 }

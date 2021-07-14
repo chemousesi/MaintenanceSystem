@@ -1,3 +1,4 @@
+package Main;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -61,4 +62,7 @@ public class Entry {
         this.status = Status.values()[newValue];
     }
 
+    public void setToRepaired() {
+        this.status = Status.REPARE;
+    }
 }
